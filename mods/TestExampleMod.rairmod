@@ -3,13 +3,85 @@
     "name": "TestExampleMod",
     "author": "Seiyria",
     "version": 1,
-    "savedAt": 1645472759935,
+    "savedAt": 1645491994548,
     "_backup": {
       "meta": {
         "name": "TestExampleMod",
         "author": "Seiyria",
         "version": 1,
-        "savedAt": 1645472759935
+        "savedAt": 1645491994548,
+        "_backup": {
+          "meta": {
+            "name": "TestExampleMod",
+            "author": "Seiyria",
+            "version": 1,
+            "savedAt": 1645472759935
+          },
+          "npcs": [],
+          "items": [
+            {
+              "sprite": "3",
+              "quality": 5,
+              "name": "Test Butterfly Amulet",
+              "itemClass": "Amulet",
+              "maxUpgrades": 0,
+              "value": 1,
+              "sellValue": 0,
+              "desc": "a cool item",
+              "stats": {},
+              "randomStats": {},
+              "type": "Martial",
+              "secondaryType": "",
+              "succorInfo": {},
+              "cosmetic": {
+                "name": ""
+              },
+              "containedItems": [],
+              "trait": {
+                "name": "",
+                "level": 0
+              },
+              "useEffect": {
+                "name": "",
+                "potency": 0,
+                "duration": 0,
+                "extra": {
+                  "statChanges": {},
+                  "tooltip": "",
+                  "message": ""
+                }
+              },
+              "strikeEffect": {
+                "name": "",
+                "potency": 0,
+                "duration": 0,
+                "chance": 0
+              },
+              "breakEffect": {
+                "name": "",
+                "potency": 0,
+                "duration": 0
+              },
+              "equipEffect": {
+                "name": "",
+                "potency": 0,
+                "duration": 0
+              },
+              "requirements": {
+                "baseClass": "",
+                "level": 0
+              },
+              "isBeltable": false,
+              "isSackable": true
+            }
+          ],
+          "drops": [],
+          "spawners": [],
+          "recipes": [],
+          "maps": [],
+          "quests": [],
+          "dialogs": []
+        }
       },
       "npcs": [],
       "items": [
@@ -24,7 +96,7 @@
           "desc": "a cool item",
           "stats": {},
           "randomStats": {},
-          "type": "Martial",
+          "type": "martial",
           "secondaryType": "",
           "succorInfo": {},
           "cosmetic": {
@@ -80,57 +152,15 @@
   "npcs": [],
   "items": [
     {
-      "sprite": "3",
+      "sprite": 3,
       "quality": 5,
       "name": "Test Butterfly Amulet",
       "itemClass": "Amulet",
-      "maxUpgrades": 0,
       "value": 1,
-      "sellValue": 0,
       "desc": "a cool item",
       "stats": {},
       "randomStats": {},
       "type": "martial",
-      "secondaryType": "",
-      "succorInfo": {},
-      "cosmetic": {
-        "name": ""
-      },
-      "containedItems": [],
-      "trait": {
-        "name": "",
-        "level": 0
-      },
-      "useEffect": {
-        "name": "",
-        "potency": 0,
-        "duration": 0,
-        "extra": {
-          "statChanges": {},
-          "tooltip": "",
-          "message": ""
-        }
-      },
-      "strikeEffect": {
-        "name": "",
-        "potency": 0,
-        "duration": 0,
-        "chance": 0
-      },
-      "breakEffect": {
-        "name": "",
-        "potency": 0,
-        "duration": 0
-      },
-      "equipEffect": {
-        "name": "",
-        "potency": 0,
-        "duration": 0
-      },
-      "requirements": {
-        "baseClass": "",
-        "level": 0
-      },
       "isBeltable": false,
       "isSackable": true
     }
